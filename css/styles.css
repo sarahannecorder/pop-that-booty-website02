@@ -1,0 +1,177 @@
+/* GENERAL STYLING */
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Shrikhand', cursive;
+	background-image: url(..//img/cherries2.gif);
+
+}
+
+/* HEADER STYLING */
+
+
+header {
+	display: flex;
+	justify-content: center;
+	background-color: pink;
+}
+
+/* MAIN STYLING */
+
+
+main {
+	display: flex;
+}
+
+
+/* IMAGES */
+
+
+
+.booty {
+	margin: 0 auto;
+}
+
+#myImage {
+	margin-top: -120px;
+	display: flex;
+	justify-content: center;
+
+}
+
+
+/* LOGO ANIMATION */
+
+
+@-webkit-keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+@keyframes bounce {
+  from,
+  20%,
+  53%,
+  80%,
+  to {
+    -webkit-animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  40%,
+  43% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -30px, 0);
+    transform: translate3d(0, -30px, 0);
+  }
+
+  70% {
+    -webkit-animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+    -webkit-transform: translate3d(0, -15px, 0);
+    transform: translate3d(0, -15px, 0);
+  }
+
+  90% {
+    -webkit-transform: translate3d(0, -4px, 0);
+    transform: translate3d(0, -4px, 0);
+  }
+}
+
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+  -webkit-transform-origin: center bottom;
+  transform-origin: center bottom;
+}
+
+
+/* BUTTON STYLING */
+
+
+
+.move-button {
+	text-align: center;
+	padding-bottom: 100px;
+}
+
+.button2 {
+	display: flex;
+	justify-content: center;
+	height: 50px;
+	text-align: center;
+	font-size: 30px;
+	padding: 30px;
+
+}
+
+button#button2 {
+	background-color: pink;
+	font-family: 'Shrikhand', cursive;
+	padding: 20px;
+	border-radius: 3px;
+	letter-spacing: 2px;
+	font-size: 30px;
+	color: purple;
+
+}
+
+
+	button #button2:hover {
+	text-decoration: none;
+	background-color: purple;
+	color: pink;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
